@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## Built With
 
-* [PyQt5](https://www.riverbankcomputing.com/software/pyqt/intro) - Qt application framework used
+* [PyQt5](https://www.riverbankcomputing.com/software/pyqt/intro) - Qt application framework (gui) 
 * [pyserial](https://pyserial.readthedocs.io/en/latest/pyserial.html) - serial communication framework
-* [maplotlib](https://matplotlib.org/3.1.1/contents.html)
+* [maplotlib](https://matplotlib.org/3.1.1/contents.html) - matplotlib used for ploting data
 
 
 ## Authors
