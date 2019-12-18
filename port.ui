@@ -83,9 +83,9 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>149</y>
-      <width>401</width>
-      <height>31</height>
+      <y>150</y>
+      <width>400</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="font">
@@ -100,32 +100,52 @@
     <property name="text">
      <string/>
     </property>
+    <property name="placeholderText">
+     <string>Data Sending</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="send_btn">
+    <property name="text">
+     <string>send</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="read_box">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>400</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SansSerif</family>
+      <pointsize>12</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Data Reading</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="read_btn">
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>200</y>
+      <y>320</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>send</string>
+     <string>Read</string>
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>482</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

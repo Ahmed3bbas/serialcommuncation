@@ -2,3 +2,4 @@ PyQt5
 pyserial
 glob3
 os-sys
+matplotlib
